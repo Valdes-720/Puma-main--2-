@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/envios.css">
+</head>
+<a href="index.html" style="color: rgb(255, 255, 255);">Inicio</a>
+<body>
+    <header><h1>Envíos</h1></header>
+    <div class="main">
+    <div class="env">
+        <div class="dest">
+            <legend>Lugar de destino</legend>
+            <select name="Destino" id="ldes">
+                <option value="lmed">Medellín</option>
+                <option value="lbog">Bogota</option>
+                <option value="lcal">Cali</option>
+                <option value="lsuc">Sucre</option>
+                <option value="lbar">Barranquilla</option>
+                <option value="lnar">Nariño</option>
+                <option value="lama">Amazonas</option>
+                <option value="lsta">Santa Marta</option>
+            </select>
+            <br>
+            <label for="ldir">Direccion de residencia</label>
+            <br>
+            <input type="text" name="direccion" id="ldir" placeholder="Ingrese su direccion">
+        </div>
+        <div class="pers">
+            <legend>Tipo de documento</legend>
+            <select name="Personal" id="lpers">
+            <option value="lcc">Cedula Ciudadania</option>
+            <option value="lti">Tarjeta de identidad</option>
+            <option value="lex">Cedula Extranjería</option>
+            <option value="lpas">Pasaporte</option>
+            <option value="lnit">NIT</option>
+            <option value="lreg">Registro Civil</option>
+        </select>
+        <br>
+        <label for="ldoc">Documento</label>
+        <br>
+            <input type="number" name="Documento" id="ldoc" placeholder="Ingrese su documento">
+        </div>
+    </div>
+        <div class="env2">
+        <div class="pago">
+            <legend>Medio de pago</legend>
+            <select name="pago" id="lpag">
+                <option value="lefe">Efectivo</option>
+                <option value="lcre">Tarjeta de credito</option>
+                <option value="ldeb">Tarjeta de debito</option>
+                <option value="ltra">Transferencia</option>
+            </select>
+        </div>
+        <div class="cont">
+            <label for="lcor">Correo electronico</label>
+        <br>
+            <input type="text" name="correo" id="lcor" placeholder="Ingrese su correo">
+            <br>
+            <label for="lcor">Telefono</label>
+        <br>
+            <input type="number" name="telefono" id="ltel" placeholder="Ingrese su telefono">
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body style="background-color: black;">
+<!-- Barra de navegacion -->
+<div class="header">
+<nav class="navbar navbar-expand-lg" style="margin-left: 13%; margin-right: 20%;">
+<div class="container-fluid">
+    <a class="navbar-brand" href="#">
+    <img src="data:image/png;base64,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" alt="" height="80px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="catalogo.html" style="color: white;">Catalogo</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="envios.html" style="color: white;">Envíos</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="patrocinios.html" style="color: white;">Patrocinios</a>
+        </li>
+    </ul>
+    <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit" style="color: white; border-color: white; ">Search</button>
+    </form>
+    </div>
+</div>
+</nav>
+</div>
+<!-- Sliders -->
+<div class="container">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="img/puma slide 1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="img/puma slide 2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="img/puma slide 3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+<br>
+<h2 style="color: white;">Tiendas cercanas</h2>
+<!-- Tarjetas -->
+<div class="row mb-5">
+    <div class="col">
+     <div class="card" style="width: 18rem;">
+       <img src="https://static.wixstatic.com/media/d84862_e030dc64cd8242258a67a0d0b6f1e5e1~mv2.jpeg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d84862_e030dc64cd8242258a67a0d0b6f1e5e1~mv2.jpeg" class="card-img-top" alt="..." height="200px">
+       <div class="card-body">
+         <h5 class="card-title">C.C Puerta del Norte</h5>
+         <a href="https://www.empleosamc.com/copia-de-tiendas-medellin-los-molin" class="btn btn-primary">Más información</a>
+       </div>
+     </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://static.wixstatic.com/media/d84862_307059d0433042de9e2015c2a0837b97~mv2.jpg/v1/fill/w_490,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/d84862_307059d0433042de9e2015c2a0837b97~mv2.jpg" class="card-img-top" alt="..." height="200px">
+          <div class="card-body">
+            <h5 class="card-title">C.C Los Molinos</h5>
+            <a href="https://www.empleosamc.com/copia-de-tiendas-medellin-tesoro" class="btn btn-primary">Más información</a>
+          </div>
+        </div>
+       </div>
+       <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="https://static.wixstatic.com/media/d84862_e58d582040e84888a4a7f65ae6386285~mv2.jpeg/v1/fill/w_490,h_426,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/d84862_e58d582040e84888a4a7f65ae6386285~mv2.jpeg" class="card-img-top" alt="..." height="200px">
+          <div class="card-body">
+            <h5 class="card-title">C.C El Tesoro</h5>
+            <a href="https://www.empleosamc.com/copia-de-tiendas-bogota-fontanar" class="btn btn-primary">Más información</a>
+          </div>
+        </div>
+       </div>
+ </div>
+ <br>
+ <div class="card">
+    <h5 class="card-header">PromoPumas</h5>
+    <div class="card-body">
+      <h5 class="card-title">Inscribete</h5>
+      <p class="card-text">Obten grandes descuentos en toda nuestra tienda.</p>
+      <a href="descuentos.html" class="btn btn-primary">Haz click aquí</a>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    
+   
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;   
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+
+
+body {
+    background-color: #000;
+    color: #fff;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+.tarjeta {
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #333; 
+}
+
+
+
+div .container{
+    margin-left: 270px;
+    
+}
+
+
+nav .navegador{
+    margin: 20px;
+    display: flex;
+    justify-content:center;
+    background-color: black;
+    min-height: 5vh;
+        
+    flex-direction: row;
+}
+
+ .navegador .box{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+}
+
+nav .referencias{
+    display: flex;
+    justify-content:center;
+    background-color: black;
+    min-height: 20vh;
+    gap: 2%;    
+    border-radius: 10px;
+    flex-wrap: wrap;
+    color: black;
+}
+
+/*.referencias .ref1{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.referencias .ref2{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.referencias .ref3{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.referencias .ref4{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.referencias .ref5{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref5 img{
+    width: 100%;
+    height: 100%;
+}
+
+.referencias .ref6{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref6 img{
+    width: 100%;
+    height: 100%;
+}
+
+.referencias .ref7{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref7 img{
+    width: 100%;
+    height: 100%;
+}
+
+.referencias .ref8{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref8 img{
+    width: 100%;
+    height: 100%;
+}
+
+.referencias .ref9{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref9 img{
+    width: 100%;
+    height: 100%;
+}
+
+.referencias .ref10{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref10 img{
+    width: 100%;
+    height: 100%;
+}
+
+.referencias .ref11{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref11 img{
+    width: 100%;
+    height: 100%;
+}
+
+.referencias .ref12{
+    background-color: rgb(92, 92, 92);
+    width: 20%;
+}
+
+.ref12 img{
+    width: 100%;
+    height: 100%;
+}  */
+
+
+main .contenido{
+    display: flex;
+    min-height: 30vh;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+
+
+.contenido .medio{
+    background-color: rgb(112, 101, 101);
+    flex: 40%;
+}
+
+.medio img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+footer{
+    background-color: wheat;
+    min-height: 10vh;
+}

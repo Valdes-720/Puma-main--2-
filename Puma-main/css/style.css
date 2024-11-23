@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.carousel-item{
+    max-height: 250px;
+    width: 100%;
+}
+.contenedor{
+    width: 60%;
+    margin:auto;
+    border: 1px auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.747);
+    padding: 10px;
+}
+.btn-primary{
+    margin-left: 50%;
+}
